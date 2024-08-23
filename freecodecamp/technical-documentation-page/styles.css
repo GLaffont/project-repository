@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(49, 54, 82);
+    color: aliceblue;
+    padding: 4 em;
+   
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    font-size: 30 em;
+    font-weight: bold;
+    margin-top: 2 rem;
+    margin-bottom: 2 rem;
+}
+
+@media only screen and (max-width: 900px) {
+   
+    body {
+        font-family: sans-serif;
+        background-color: rgb(49, 54, 82);
+        color: aliceblue;
+        padding-left: 1 px;
+        font-size: 16px;
+       
+    }}

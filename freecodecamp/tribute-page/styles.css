@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    
+}
+#title {
+    font-size: 10vw;
+    margin-bottom: 0;
+}
+#title, #nickname, #img-caption, #timeline, .tribute-link {
+    text-align: center;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#timeline {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+a {
+    color: aliceblue;
+}
+a:hover {
+    background-color: blueviolet;
+}
