@@ -1,0 +1,103 @@
+/* General Settings */
+
+:root {
+    --dark-blue: rgba(2,0,36,1);
+    --text: aliceblue;
+    --background: rgb(28, 32, 74);
+}
+
+/* Navigation Bar Settings*/
+
+#navbar {
+    overflow: hidden;
+    background-color: var(--dark-blue);
+    color: var(--text);
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+
+#navbar a {
+    float: right;
+    display: block;
+    color: var(--text);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+#navbar a:hover {
+    background: var(--text);
+    color: var(--dark-blue);
+  }
+
+  .header{
+    display: none;
+  }
+  /* Main */
+
+  body {
+    background-color: var(--background);
+    color:  var(--text);
+  }
+
+  main {
+    margin-top: 100px; 
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+  }
+
+ main a {
+    color:  var(--text);
+    text-decoration: none;
+  }
+
+main a:hover {
+    color: aqua;
+}
+main a:visited {
+    color: blueviolet;
+}
+ /* Title */
+
+#welcome-section {
+  font-size: 30px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+
+}
+
+/* Sections*/
+
+#FCC-1 {
+  text-align: left;
+}
+
+  /* Media */
+
+  @media (max-width: 480px) {
+    main {
+      margin-top: 100px; 
+      margin-left: 0px;
+      margin-right: 0px;
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 768px) {
+    main {
+      margin-top: 100px; 
+      margin-left: 0px;
+      margin-right: 0px;
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+
+  }
+
+  @media (min-width: 1025px) and (max-width: 1200px) {
+
+  }
